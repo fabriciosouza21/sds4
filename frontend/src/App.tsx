@@ -1,9 +1,18 @@
+import DataTable from "components/DataTable";
+import Footer from "components/Footer";
+import Navbar from "components/Navbar";
 
 function App() {
   return (
-    <div >
-      <h1 className = "text-primary" >  Ola mundo </h1>
-    </div>
+    <>
+      <Navbar />
+      <div className='container' >
+        <h1 className="text-primary" >  Ola mundo </h1>
+        <DataTable />
+      </div>
+
+      <Footer />
+    </>
   );
 }
 
