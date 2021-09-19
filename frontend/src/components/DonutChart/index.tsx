@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Chat from 'react-apexcharts'
-import { SaleSum } from 'types/sale'
+import { SaleSum } from 'types/Sale'
 import { BASE_URL } from 'utils/Request'
 
 type ChartData = {
