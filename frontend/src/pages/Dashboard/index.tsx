@@ -7,7 +7,7 @@ import Navbar from "components/Navbar";
 const Dashboard = () => {
     return (
         <>
-            <Navbar />
+            <Navbar/>
             <div className='container' >
                 <h1 className='text-primary py-3' >  Dashboard de Vendas </h1>
                 <div className='row px-3'>
@@ -15,14 +15,14 @@ const Dashboard = () => {
                         <h5 className='text-center text-secondary' >
                             Taxa de sucesso
                         </h5>
-                        <Barchart />
+                        <Barchart/>
 
                     </div>
                     <div className='col-sm-6'>
                         <h5 className='text-center text-secondary' >
                             Todas as vendas
                         </h5>
-                        <DonutChart />
+                        <DonutChart/>
 
                     </div>
                 </div>
@@ -31,10 +31,10 @@ const Dashboard = () => {
                         Todas as Vendas
                     </h2>
                 </div>
-                <DataTable />
+                <DataTable/>
             </div>
 
-            <Footer />
+            <Footer/>
         </>
     );
 }
